@@ -1,0 +1,20 @@
+/* Chart poles on the field-kit palette.
+   pine = impact-aware. ochre = timer. ink = truth. steel = queue. */
+:root {
+  --chart-corrected: var(--good);
+  --chart-raw: var(--amber);
+  --chart-truth: var(--fg-hi);
+  --chart-barkjohn: var(--steel);
+
+  --chart-1: var(--chart-corrected);
+  --chart-2: var(--chart-raw);
+  --chart-3: var(--chart-truth);
+  --chart-4: var(--chart-barkjohn);
+  --chart-5: var(--bad);
+
+  --chart-background: var(--bg-sunk);
+  --chart-foreground: var(--fg-hi);
+  --chart-foreground-muted: var(--fg-low);
+  --chart-label: var(--fg-low);
+  --chart-grid: var(--line-hairline);
+}
